@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "OpenSans-hebrew-light";
+  src: url('fonts/open-sans-hebrew/OpenSansHebrew-Light.ttf');
+}
+
+@font-face {
+  font-family: "OpenSans-hebrew-regular";
+  src: url('fonts/open-sans-hebrew/OpenSansHebrew-Regular.ttf');
+}
+
+@font-face {
+  font-family: "OpenSans-hebrew-bold";
+  src: url('fonts/open-sans-hebrew/OpenSansHebrew-Bold.ttf');
+}
+
+@font-face {
+  font-family: "OpenSans-hebrew-extrabold";
+  src: url('fonts/open-sans-hebrew/OpenSansHebrew-ExtraBold.ttf');
+}
+
+:root {
+  --backgrondColor: #ECEFF7;
+  --sectionColor: #FFFFFF;
+  --textColor: #000000;
+  --textPlaceholder: #999999;
+  --fillSolidWriteMe: #8163FA;
+  --fillOpacdWriteMe: #9A79F9;
+  --roundedEdges: 15px;
+  --timeTransition: 0.5s;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "OpenSans-hebrew-light";
+}
+
+body {
+  background-color: var(--backgrondColor);
+
+  overflow: hidden;
+}
+
+main {
+  height: 100vh;
+  /* Define a altura do contêiner principal */
+  display: flex;
+  justify-content: center;
+  /* Centraliza horizontalmente */
+  align-items: center;
+  /* Centraliza verticalmente */
+
+}
+
+section {
+  width: 95%;
+  height: 95vh;
+  padding: 20px;
+  text-align: center;
+  border-radius: var(--roundedEdges);
+  background-color: var(--sectionColor);
+}
+
+#username-page-container {
+
+  height: 100%;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#logo_write_me {}
+
+.form-group {
+  padding: 20px;
+}
+
+#name {
+  height: 60%;
+  width: 50vh;
+
+  outline: none;
+  box-shadow: none;
+  border: 0;
+  border-bottom: 2px;
+
+  font-family: "OpenSans-hebrew-regular";
+  font-size: 30px;
+  text-align: center;
+  color: var(--fillSolidWriteMe);
+  border-style: solid;
+  border-color: var(--fillSolidWriteMe);
+  background-color: #FFFFFF;
+}
+
+.username-submit {
+  height: 60px;
+  width: 50vh;
+  font-family: "OpenSans-hebrew-bold";
+  font-size: 25px;
+  color: var(--fillSolidWriteMe);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--fillSolidWriteMe);
+  background-color: #FFFFFF;
+}
+
+footer {}

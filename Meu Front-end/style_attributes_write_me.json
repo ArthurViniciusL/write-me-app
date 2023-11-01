@@ -1,0 +1,10 @@
+{
+    "backgrondColor": "#ECEFF7",
+    "sectionColor": "#FFFFFF",
+    "textColor": "#000000",
+    "textPlaceholder": "#999999",
+    "fillSolidWriteMe": "#8163FA",
+    "fillOpacdWriteMe": "#9A79F9",
+    "roundedEdges": "15px",
+    "timeTransition": "0.5s"
+}
