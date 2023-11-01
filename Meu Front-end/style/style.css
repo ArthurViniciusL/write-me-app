@@ -79,7 +79,10 @@ section {
   height: 100%;
 }
 
-#logo_write_me {}
+#logo_write_me {
+  max-width: 60%;
+  min-width: 60px;
+}
 
 .form-group {
   padding: 20px;
@@ -95,7 +98,7 @@ section {
   border-bottom: 2px;
 
   font-family: "OpenSans-hebrew-regular";
-  font-size: 30px;
+  font-size: 3vh;
   text-align: center;
   color: var(--fillSolidWriteMe);
   border-style: solid;
@@ -106,8 +109,9 @@ section {
 .username-submit {
   height: 60px;
   width: 50vh;
+  
   font-family: "OpenSans-hebrew-bold";
-  font-size: 25px;
+  font-size: 3.2vh;
   color: var(--fillSolidWriteMe);
   border-radius: 10px;
   border-style: solid;
