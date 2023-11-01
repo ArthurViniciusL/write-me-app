@@ -1,4 +1,4 @@
-package com.writeme.chat;
+package com.writeme.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
