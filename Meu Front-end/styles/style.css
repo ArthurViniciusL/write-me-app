@@ -15,11 +15,6 @@
   src: url('fonts/open-sans-hebrew/OpenSansHebrew-Bold.ttf');
 }
 
-@font-face {
-  font-family: "OpenSans-hebrew-extrabold";
-  src: url('fonts/open-sans-hebrew/OpenSansHebrew-ExtraBold.ttf');
-}
-
 :root {
   --backgrondColor: #ECEFF7;
   --sectionColor: #FFFFFF;
@@ -62,40 +57,55 @@ section {
   width: 95%;
   height: 95vh;
   padding: 20px;
-  text-align: center;
+  
   border-radius: var(--roundedEdges);
   background-color: var(--sectionColor);
-}
-
-#username-page-container {
-
-  height: 100%;
-
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+}
+
+.login-container {
+  width: 95%;
+  height: 95%;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #logo_write_me {
-  max-width: 60%;
-  min-width: 60px;
+
+  max-width: 50%;
+
+  /*border: 1px red solid;*/
+
 }
 
-.form-group {
-  padding: 20px;
+#input_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 7px;
 }
 
 #name {
-  height: 60%;
   width: 50vh;
-
+  height: 60px;
+  
   outline: none;
   box-shadow: none;
   border: 0;
   border-bottom: 2px;
+
+  margin: 15px;
 
   font-family: "OpenSans-hebrew-regular";
   font-size: 3vh;
@@ -106,17 +116,23 @@ section {
   background-color: #FFFFFF;
 }
 
-.username-submit {
-  height: 60px;
+#btn_entrar {
   width: 50vh;
-  
+  height: 50px;
+
+  /* min-width: 30vh;*/
+
   font-family: "OpenSans-hebrew-bold";
-  font-size: 3.2vh;
+  font-size: 3vh;
   color: var(--fillSolidWriteMe);
   border-radius: 10px;
   border-style: solid;
   border-color: var(--fillSolidWriteMe);
-  background-color: #FFFFFF;
+  background-color: var(--sectionColor);
 }
 
-footer {}
+footer {
+  font-family: "OpenSans-hebrew-regular";
+  color: var(--textPlaceholder);
+  font-size: 1.7vh;
+}
