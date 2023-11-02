@@ -1,17 +1,21 @@
 @charset "UTF-8";
 
 :root {
-    --backgrondColor: #ECEFF7;
-    --sectionColor: #FFFFFF;
-    --textColor: #000000;
-    --textPlaceholder: #999999;
-    --fillSolidWriteMe: #8163FA;
-    --fillOpacdWriteMe: #9A79F9;
-    --roundedEdges: 15px;
-    --timeTransition: 0.5s;
-  }
+  --backgrondColor: #ECEFF7;
+  --sectionColor: #FFFFFF;
+  --textColor: #000000;
+  --textPlaceholder: #999999;
+  --fillSolidWriteMe: #8163FA;
+  --fillOpacdWriteMe: #9A79F9;
+  --roundedEdges: 15px;
+  --timeTransition: 0.5s;
+}
+
+#name::placeholder {
+  color: var(--textPlaceholder);
+}
 
 #btn_entrar:hover {
-    color: var(--sectionColor);
-    background-color: var(--fillSolidWriteMe);
+  color: var(--sectionColor);
+  background-color: var(--fillSolidWriteMe);
 }
