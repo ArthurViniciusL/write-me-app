@@ -70,25 +70,49 @@ header {
     background-color: red;
 }
 
-#logo_write_me_2 {
+#logo_write_me_container {
     margin: 0 auto;
-}
-
-
-#messageArea {
-
-    border: 1px red solid;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .connecting {
-    
+    text-align: center;
+    font-size: large;
+    color: var(--textPlaceholder);
+    font-family: "OpenSans-hebrew-light";
+
     border: 1px red solid;
 }
+
+#chat_container {
+    width: 100%;
+    height: 90%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 5%;
+
+    border: 2px blue dashed;
+}
+
+#messageArea {
+
+    max-height: 100%;
+
+    border: 1px red solid;
+}
+
 
 
 
 .input-group,
 .clearfix {
-
+    
+    height: 100%;
     border: 1px red solid;
 }
