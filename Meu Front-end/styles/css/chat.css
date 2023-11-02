@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "OpenSans-hebrew-light";
+    src: url('fonts/open-sans-hebrew/OpenSansHebrew-Light.ttf');
+}
+
+@font-face {
+    font-family: "OpenSans-hebrew-regular";
+    src: url('fonts/open-sans-hebrew/OpenSansHebrew-Regular.ttf');
+}
+
+@font-face {
+    font-family: "OpenSans-hebrew-bold";
+    src: url('fonts/open-sans-hebrew/OpenSansHebrew-Bold.ttf');
+}
+
+:root {
+    --backgrondColor: #ECEFF7;
+    --sectionColor: #FFFFFF;
+    --textColor: #000000;
+    --textPlaceholder: #999999;
+    --fillSolidWriteMe: #8163FA;
+    --fillOpacdWriteMe: #9A79F9;
+    --roundedEdges: 15px;
+    --timeTransition: 0.5s;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: "OpenSans-hebrew-light";
+}
+
+.corpo {
+    height: 100vh;
+
+    /* Define a altura do contêiner principal */
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+
+    border: 3px red solid;
+}
+
+.message-container {
+    width: 90%;
+    height: 100%;
+
+    /*border: 3px red dashed;*/
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn_closer {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+#logo_write_me_2 {
+    margin: 0 auto;
+}
+
+
+#messageArea {
+
+    border: 1px red solid;
+}
+
+.connecting {
+    
+    border: 1px red solid;
+}
+
+
+
+.input-group,
+.clearfix {
+
+    border: 1px red solid;
+}

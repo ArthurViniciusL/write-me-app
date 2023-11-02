@@ -23,16 +23,12 @@
     #name {
         max-height: 60%;
         max-width: 35vh;
-        font-size: 18px;
+        font-size: larger;
     }
 
     #btn_entrar {
         max-width: 35vh;
         max-height: 40px;
         font-size: 20px;
-    }
-
-    footer {
-        font-size: medium;
     }
 }

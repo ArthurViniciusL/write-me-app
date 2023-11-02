@@ -30,6 +30,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+
   margin: 0;
   padding: 0;
 
@@ -39,7 +40,6 @@
 body {
   background-color: var(--backgrondColor);
 
-  overflow: hidden;
 }
 
 main {
@@ -50,7 +50,6 @@ main {
   /* Centraliza horizontalmente */
   align-items: center;
   /* Centraliza verticalmente */
-
 }
 
 section {
@@ -80,11 +79,7 @@ section {
 }
 
 #logo_write_me {
-
   max-width: 50%;
-
-  /*border: 1px red solid;*/
-
 }
 
 #input_container {
@@ -108,7 +103,7 @@ section {
   margin: 15px;
 
   font-family: "OpenSans-hebrew-regular";
-  font-size: 3vh;
+  font-size: larger;
   text-align: center;
   color: var(--fillSolidWriteMe);
   border-style: solid;
@@ -120,10 +115,8 @@ section {
   width: 50vh;
   height: 50px;
 
-  /* min-width: 30vh;*/
-
   font-family: "OpenSans-hebrew-bold";
-  font-size: 3vh;
+  font-size: x-large;
   color: var(--fillSolidWriteMe);
   border-radius: 10px;
   border-style: solid;
@@ -134,5 +127,5 @@ section {
 footer {
   font-family: "OpenSans-hebrew-regular";
   color: var(--textPlaceholder);
-  font-size: 1.7vh;
+  font-size: medium;
 }
